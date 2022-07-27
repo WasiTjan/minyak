@@ -1,5 +1,7 @@
 #!/bin/bash
 # Free XRDP Masbroo is HERE
+service ssh start
+service nginx start
 sudo apt update
 apt-get install -y build-essential automake libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev zlib1g-dev git
 apt install -y lynx
